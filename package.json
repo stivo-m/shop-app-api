@@ -1,0 +1,26 @@
+{
+	"name": "shop-app-api",
+	"version": "1.0.0",
+	"description": "API to serve the react frontend for the project. ",
+	"main": "server.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stivo-m/shop-app-api.git"
+	},
+	"author": "Steven Maina",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/stivo-m/shop-app-api/issues"
+	},
+	"homepage": "https://github.com/stivo-m/shop-app-api#readme",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"jest": "^27.0.6",
+		"mongoose": "^5.13.5"
+	}
+}

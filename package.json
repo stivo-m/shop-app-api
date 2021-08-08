@@ -4,7 +4,7 @@
 	"description": "API to serve the react frontend for the project. ",
 	"main": "server.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest --coverage"
 	},
 	"repository": {
 		"type": "git",
@@ -17,8 +17,10 @@
 	},
 	"homepage": "https://github.com/stivo-m/shop-app-api#readme",
 	"dependencies": {
+		"bcrypt": "^5.0.1",
 		"chalk": "^4.1.2",
 		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
 		"express": "^4.17.1",
 		"jest": "^27.0.6",
 		"mongoose": "^5.13.5"
